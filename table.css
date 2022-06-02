@@ -1,0 +1,109 @@
+/* font-family: 'Righteous', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f4f6;
+}
+
+.background {
+  position: absolute;
+  height: 693px;
+  width: 1440px;
+  background: url(table.jpg) center center/cover;
+  background-repeat: no-repeat;
+}
+
+.heading {
+  display: inline-block;
+  position: relative;
+  font-family: "Righteous", cursive;
+  font-size: clamp(1rem, 6.5vh, 2rem);
+  background: linear-gradient(
+    89.84deg,
+    #ff3f42 1.92%,
+    #ff9e00 22.82%,
+    #ffdc00 45.18%,
+    #45ad00 59.77%,
+    #006bff 75.81%,
+    #a700ff 95.26%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  left: 32%;
+}
+
+#input {
+  position: absolute;
+  margin: 0rem 0rem 0rem 1rem;
+  appearance: none;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  background: #f3f3f3;
+  height: 41px;
+  font-size: 15px;
+  width: 173px;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+#button {
+  margin-top: auto;
+  border: none;
+  outline: none;
+  background: none;
+  margin-left: 13rem;
+  font-size: 20px;
+  background: #ff9800;
+  color: white;
+  padding: 7px 1rem;
+  border-radius: 9px;
+}
+.board {
+  display: grid;
+  position: absolute;
+  grid-template-columns: 1fr 1fr;
+  background: linear-gradient(totop, black, transparent);
+  top: 46%;
+  left: 28%;
+  /* border: 1px solid; */
+  height: 373px;
+  width: 658px;
+  background: linear-gradient(163deg, #fdfdfd 0%, #f2f4f3 100%);
+}
+
+.upto5 {
+  font-size: 33px;
+  margin: 1rem 0rem 0rem 2rem;
+  line-height: 65px;
+  font-family: "Righteous", cursive;
+  color: #484848;
+  transition: 0.5s;
+}
+.made-by {
+  background: linear-gradient(
+    89.84deg,
+    #ff3f42 1.92%,
+    #ff9e00 22.82%,
+    #ffdc00 45.18%,
+    #45ad00 59.77%,
+    #006bff 75.81%,
+    #a700ff 95.26%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 1rem;
+  position: absolute;
+  letter-spacing: 2px;
+  bottom: 1rem;
+  font-size: 30px;
+  font-family: "Righteous", cursive;
+}
